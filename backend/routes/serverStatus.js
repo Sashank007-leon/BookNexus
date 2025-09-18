@@ -4,6 +4,7 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     res.send('Server is running');
+    console.log("test");
 });
 
 export default router;
